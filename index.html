@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>길동이의 돌잔치 초대합니다.</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
 </head>
 <body>
     <section id="title">
@@ -25,6 +29,128 @@
             </div>
         </div>
     </section>
-    
+    <!--초대글 영역-->
+     <section id="invitation">
+        <div class="bar"></div>
+        <h2>첫번째 생일에 <br> 
+            초대합니다</h2>
+        <p>
+            봄의 시작과 함께 태어난 길동이가 <br>
+            어느덧 첫번째 생일을 <br> 
+            맞아하게 되었습니다.
+        </p>
+        <p>
+            초보 부모의 걱정과 기대 속에서도 <br>
+            큰 탈 없이 무사히 <br> 
+            1년을 보내준 우리 길동이,
+        </p>
+        <p>
+            귀엽고 건강하게 자라준 <br> 
+            길동이의 생일을 함께 나누고자 <br> 
+            조촐한 자리를 마련하였으니, <br>
+            오셔서 함께 축하해주시길 바랍니다.
+        </p>
+        <div class="send-msg-box">
+            <a class="send-btn" href="tel:010-1111-1234">
+                <i><img src="./images/mom.svg" alt="엄마에게 전화하기"></i>
+                <span>권미나</span>
+            </a>
+            <a class="send-btn" href="tel:010-1111-1235">
+                <i><img src="./images/dad.svg" alt="아빠에게 전화하기"></i>
+                <span>홍철수</span>
+            </a>
+        </div>
+     </section>
+     <!--포토 갤러리-->
+     <section id="gallery">
+         <div class="bar"></div>
+         <h2>포토갤러리</h2>
+            <figure>
+                <div class="main-photo">
+                    <img src="./images/main-photo1.jpg" alt="대표이미지">
+                </div>
+                <ul class="img-list">
+                    <li>
+                        <a href="#gallery">
+                            <img src="./images/main-photo1.jpg" alt="photo1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gallery">
+                            <img src="./images/main-photo2.jpg" alt="photo2">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gallery">
+                            <img src="./images/main-photo3.jpg" alt="photo3">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gallery">
+                            <img src="./images/main-photo4.jpg" alt="photo4">
+                        </a>
+                    </li>
+                </ul>
+            </figure>
+     </section>
+
+     <!--오시는 길-->
+     <section id="location">
+         <div class="bar"></div>
+         <h2>오시는 길</h2>
+         <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21253.784634399064!2d126.61256247054096!3d37.639940405282225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c81129c584b57%3A0x9c9b06d5018ca285!2z66W066-47JeQ66W0642U7YyM7Yuw!5e0!3m2!1sko!2skr!4v1645145305268!5m2!1sko!2skr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+         <p>경기도 김포시 구래동 6883-2 아스타 프라자 6층 <br> TEL. 080.000.1234 </p>
+     </section>
+
+     <!--축하해주기-->
+     <section id="congrat">
+        <div class="bar"></div>
+        <h2>축하해주기</h2>
+        <div class="contact-box-wrap">
+            <div class="contact-box">
+                <div class="icon-box">
+                    <a href="tel:010-0000-1111">
+                        <img src="./images/icon_tel.svg" alt="전화">
+                    </a>
+                    <a href="sms:010-0000-1111">
+                        <img src="./images/icon_sms.svg" alt="문자">
+                    </a>
+                </div>
+                <span>엄마에게 연락하기</span>
+            </div>
+            <div class="contact-box">
+                <div class="icon-box">
+                    <a href="tel:010-0000-1234">
+                        <img src="./images/icon_tel.svg" alt="전화">
+                    </a>
+                    <a href="sms:010-0000-1234">
+                        <img src="./images/icon_sms.svg" alt="문자">
+                    </a>
+                </div>
+            <span>아빠에게 연락하기</span>
+            </div>
+        </div>
+        <div class="sns-group">
+            <a class="icon-link" href="#">
+                <img src="./images/icon_kakakotalk.svg" alt="카카오톡">
+                <div>카카오톡</div>
+            </a>
+            <a class="icon-link" href="#">
+                <img src="./images/icon_facebook.svg" alt="페이스북">
+                <div>페이스북</div>
+            </a>
+            <a class="icon-link" href="#">
+                <img src="./images/icon_youtube.svg" alt="유튜브">
+                <div>유튜브</div>
+            </a>
+        </div>
+     </section>
+
+     <!--splash screen-->
+     <div class="splash-screen on">
+         <img src="./images/s_logo.gif" alt="길동이의 첫번째 생일">
+     </div>
 </body>
 </html>
